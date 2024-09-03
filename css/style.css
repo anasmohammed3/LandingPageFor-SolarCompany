@@ -1,0 +1,1592 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body{
+    overflow-x: hidden;
+  }
+
+  /* ______________________ navbar section ____________________ */
+  
+  .navbar {
+    background-color: rgb(11, 149, 134);
+    display: flex;
+    align-items: center;
+    padding: 5px 140px; /* Optional: Adds some padding around navbar content */
+  }
+  
+  .navbar img {
+    width: 100px;
+    height: 35px;
+  }
+  
+  nav {
+    flex: 1;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    margin-left: 90px;
+  }
+  
+  li {
+    margin: 0px 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 300;
+  }
+  
+  .home {
+    font-weight: 500;
+    background-color: rgba(0, 0, 0, 0.079);
+    padding: 3px 20px;
+    border-radius: 5px;
+    border-bottom: rgba(0, 0, 0, 0.42) solid 2px;
+  }
+  
+  .contact-info {
+    text-align: right; 
+    color: white;
+    text-transform: capitalize;
+  }
+
+  .contact-info p{
+    font-weight: 300;
+  }
+  
+  .contact-info span{
+    font-weight: 600;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  /* _____________________ hero section ____________________ */
+
+  .hero{
+    background-image: url(../images/solar-panels-meadow\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 84vh;
+    width: 100%;
+    position: relative;
+  }
+
+.hero-text{
+  padding-top: 110px;
+   margin-left: 140px;
+   display: flex;
+   align-items: center;
+}
+
+.hero-text :nth-child(1){
+    margin-right: 40px;
+    color: white;
+}
+
+.hero-text :nth-child(2){
+    background-color: white;
+    width: 70px;
+    height: 3px;
+}
+
+
+.hero-text :nth-child(3){
+    background-color: rgb(145, 145, 145);
+    width: 115px;
+    height: 3px;
+}
+
+.hero-text :nth-child(4){
+    margin-left: 20px;
+    color: white;
+}
+
+.hero-title{
+    margin-top: 30px;
+    margin-left: 140px;
+}
+
+.hero-title h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    width: 600px;
+    line-height: 45px;
+    text-transform: capitalize;
+}
+
+.hero-title p{
+    color: white;
+    width: 600px;
+    margin-top: 32px;
+    font-weight: 500;
+}
+
+.hero-btn{
+    margin-top: 20px;
+}
+
+.hero-btn :nth-child(1){
+    background-color: rgb(60,171,144);
+    border: none;
+    font-weight: 300;
+    color: white;
+    text-transform: capitalize;
+    padding: 8px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.hero-btn :nth-child(2){
+    background-color: rgb(255,187,28);
+    border: none;
+    font-weight: 300;
+    color: black;
+    text-transform: capitalize;
+    padding: 8px 25px;
+    border-radius: 20px;
+    margin-left: 13px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* _____________ section two ____________ */
+
+.two{
+    display: flex;
+    margin-top: 40px;
+}
+
+.two .left{
+    margin-left: 100px;
+}
+
+.two .left h1{
+   font-size: 35px;
+    font-weight: 600;
+    width: 500px;
+    line-height: 45px;
+}
+
+.two .left .text{
+    width: 620px;
+    color: slategray;
+    margin-top: 20px;
+}
+
+.features{
+    margin-top: 35px;
+}
+
+.features div{
+    display: flex;
+    margin: 10px 0;
+}
+
+.features div :nth-child(1){
+   color: rgb(163,206,107);
+   font-weight: 500;
+}
+
+
+.features div :nth-child(2){
+    margin-left: 10px;
+    font-weight: 600;
+ }
+
+ .right img{
+    width: 410px;
+    margin-left: 50px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* __________________ section three ____________ */
+
+
+ .three {
+    background-image: url('../images/8116%201.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 64vh;
+    width: 100%;
+    background-position: center;
+    position: relative;
+    margin-top: 50px;
+}
+
+.three div{
+  padding-top: 110px;
+}
+
+.three div h1{
+    font-weight: 500;
+    color: white;
+    margin-left: 110px;
+    font-size: 34px;
+}
+
+.three div p{
+    color: white;
+    margin-left: 110px;
+    width: 550px;
+    margin-top: 20px;
+}
+
+
+.three div button{
+  cursor: pointer;
+    margin-left: 110px;
+    background-color: rgb(255,187,28);
+    border: none;
+    font-weight: 300;
+    color: black;
+    text-transform: capitalize;
+    padding: 8px 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ____________ section four ____________ */
+
+.four{
+    height: 100vh;
+    margin-top: 60px;
+}
+
+.four h1{
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+
+.four .com{
+    text-align: center;
+    color: slategray;
+}
+
+.products{
+    display: flex;
+    align-items: center;
+    margin-left: 9px;
+    margin-top: 30px;
+}
+
+.products .product{
+    background-color: white;
+    margin: 25px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.products .product h3{
+    margin-top: 7px ;
+    margin-left: 16px;
+    font-weight: 600;
+}
+
+.products .product .woc{
+    margin-left: 16px;
+    color: slategray;
+    margin-top: 20px;
+    width: 340px;
+}
+
+.products .product .view{
+    color: rgb(127,200,182);
+    font-weight: 600;
+    margin-top: 25px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+
+.products .product .view i{
+    margin-left: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ________________ section five _________________ */
+
+
+
+
+
+    .five{
+        background-image: url(../images/8116\ 1\ \(1\).png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 64vh;
+        width: 100%;
+        background-position: center;
+        position: relative;
+    }
+
+    .five div {
+        background-color: rgba(0, 0, 0, 0.485); 
+        backdrop-filter: blur(10px); 
+        color: white; 
+        padding: 20px; 
+        border-radius: 8px; 
+        max-width: 600px; 
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+      }
+
+      .five div h2{
+       font-size: 30px;
+       font-weight: 500;
+       margin-bottom: 20px;
+      }
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      /* ___________ section six ____________  */
+
+      .six{
+        display: flex;
+        justify-content: space-evenly;
+        height: 105vh;
+        background-color: rgb(255,251,243);
+      }
+
+      .six .left,
+      .six .right{
+        margin-top: 50px;
+      }
+
+
+      .six .left i{
+        background-color: rgb(83, 170, 148);
+        padding: 10px 15px;
+        color: white;
+        border-radius: 7px;
+      }
+
+      .six .left h3{
+        margin-top: 10px;
+        font-size: 30px;
+        font-weight: 600;
+        width: 300px;
+        line-height: 35px;
+      }
+
+      .six .left p{
+        margin-top: 10px;
+        width: 500px;
+        color: slategray;
+        width: 400px;
+      }
+
+      .right{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 23px; /* Adds space between grid items */
+      }
+
+      .right .card{
+        background-color: rgba(217, 236, 225, 0.333);
+        border: 1px solid rgb(154,208,191);
+        border-radius: 6px;
+        width: 305px;
+      }
+
+      .right .card img{
+        width:270px;
+        height: 70px;
+        margin: auto;
+        display: block;
+        margin-top: 20px;
+        border-radius: 7px;
+      }
+
+      .right .card h5{
+        font-weight: 600;
+        margin-top: 20px;
+        margin-left: 13px;
+        width: 200px;
+      }
+
+      .right .card p{
+        margin-top: 10px;
+        margin-left: 13px;
+        color: slategray;
+        width: 280px;
+        font-size: 14px;
+      }
+
+      .right .card .view{
+        margin-top: 15px;
+        color: rgb(92, 155, 136);
+        font-weight: 600;
+      }
+
+      .right .card .view i{
+        margin-left: 13px;
+      }
+
+      .right .third{
+        height: 286px;
+      }
+
+      .right .card span{
+        border-bottom: 1px solid slategray;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+      ______________ section seven _________________ */
+
+      .seven{
+        margin-top: 60px;
+      }
+
+      .seven .heading{
+        text-align: center;
+        font-size: 30px;
+      }
+
+      .seven .text{
+        text-align: center;
+        margin-top: 25px;
+        color: slategray;
+        font-size: 14px;
+      }
+
+      .cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .cards .card{
+        width: 300px;
+        height: 310px;
+        margin: 20px;
+        background-color: rgba(217, 236, 225, 0.333);
+        border: 1px solid rgb(154,208,191);
+        border-radius: 6px;
+      }
+
+      .cards .card i{
+        font-size: 40px;
+        color: rgb(65,166,142);
+        margin-top: 15px;
+        margin-left: 20px;
+      }
+
+      .cards .card h2{
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-left: 20px;
+      }
+
+      .cards .card p{
+        margin-top: 10px;
+        margin-left: 20px;
+        color: slategray;
+        font-size: 14px;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+      _________________ section eight ________________  */
+
+
+
+      .eight{
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-evenly;
+      
+      }
+
+      .eight .left h1{
+        font-size: 165px;
+        font-weight: 600;
+        color: rgb(65,166,142);
+        line-height: 120px;
+      }
+
+      .eight .left span{
+        margin-left: -20px;
+      }
+
+      .eight .left h2{
+        font-size: 30px;
+        width: 300px;
+      }
+
+      .eight .left p{
+        margin-top: 20px;
+        width: 370px;
+      }
+
+      .eight .right{
+        background-color: rgb(244,250,249);
+        display: block;
+        width: 600px;
+        border-radius: 20px;
+      }
+
+      .eight .right .what{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .eight .right .what:nth-child(1){
+        color: rgb(112,193,173);
+        margin-left: 40px;
+        font-weight: 500;
+      }
+
+      .eight .right .what :nth-child(2){
+        font-size: 35px;
+        color: slategray;
+        padding-right: 40px;
+      }
+
+      .eight .right .what :nth-child(2) span {
+       padding: 0 1px;
+      }
+
+      .eight .right .what :nth-child(2) .black {
+        color: black;
+      }
+
+      .eight .right .text{
+        width: 400px;
+        margin-left: 40px;
+        margin-top: 20px;
+      }
+
+      .eight .right .imgg{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+      }
+
+      .eight .right .imgg .img{
+        display: flex;
+        align-items: center;
+      }
+
+      .eight .right .imgg .img .name{
+        margin-left: 5px;
+      }
+    
+      .right .imgg .img img{
+        width: 50px;
+      }
+
+      .eight .right .imgg .shm{
+        margin-right: 40px;
+      }
+
+      .eight .right .imgg .shm i{
+        margin: 0 5px;
+        border: 1px solid slategray;
+        border-radius: 50%;
+        padding: 10px;
+        cursor: pointer;
+      }
+
+
+
+
+
+
+
+
+
+
+
+/* 
+      _________________ section nine ________________   */
+
+
+
+
+      .nine{
+        margin-top: 60px;
+        background-color: rgb(40,54,70);
+        height: 50vh;
+        position: relative;
+      }
+
+      .nine img{
+        width: 120px;
+       height: 40px;
+       margin-top: 60px;
+       margin-left: 110px;
+      }
+
+      .big{
+        display: flex;
+        align-items: center;
+      }
+
+      .big .left{
+        color: white;
+        margin-top: 10px;
+       margin-right: auto;
+      }
+
+      .big .right{
+        flex-direction: column;
+        display: flex;
+        margin-right: 150px;
+      }
+
+      .big .right p{
+        margin-top: -15px;
+        color: white;
+        line-height: 0;
+      }
+
+      .big .right input{
+        padding: 8px 10px;
+        color: slategrey;
+        outline: none;
+        border: 1px solid slategrey;
+        background-color: rgb(59,72,87);
+        border-radius: 25px;
+      }
+
+      .big .right button{
+        background-color: #ffbb1c;
+        border: none;
+        color: white;
+        padding:9px 25px;
+        position: absolute;
+        border-radius: 25px;
+        top: 114px;
+        right: 80px;
+        cursor: pointer;
+      }
+
+      .line{
+       background-color: slategray;
+       width: 1050px;
+       height: 1px;
+       margin-top: 50px;
+       margin-left: 110px;
+      }
+
+      .last{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+      }
+
+      .last .left{
+        color: slategray;
+        font-size: 11px;
+      }
+
+      .last .right{
+        color: slategray;
+        font-size: 11px;
+        display: block;
+        margin-right: 76px;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      @media (max-width: 1040px) {
+        .navbar{
+          padding: 5px 30px;
+        }
+
+        .two .left{
+          margin: 20px 40px;
+        }
+
+        .two .left .text{
+          width: 500px;
+        }
+
+        .two .right img{
+          width: 350px;
+        }
+
+        .four .products{
+          margin-left: 20px;
+        }
+
+        .four .products .product{
+          width: 310px;
+          margin: 10px;
+        }
+
+        .four .products .product img{
+          width: 100%;
+        }
+
+        .four .products .product p{
+          width: 260px;
+        }
+
+        .six{
+          height: 115vh;
+        }
+
+        .six .left{
+          margin-left: 60px;
+        }
+
+        .six .right .card{
+          width: 260px;
+        }
+
+        .six .right .card img{
+          width: 240px;
+        }
+
+        .six .right .card p{
+          width: 240px;
+        }
+
+        .nine .left ul li{
+          margin-left: 10px;
+        }
+
+        .nine .line{
+          width: 820px;
+        }
+
+
+      }
+
+
+
+
+
+
+
+
+
+      @media (max-width: 820px) {
+
+        /* body{
+          overflow-x: hidden;
+        } */
+
+
+        .navbar{
+          padding: 5px 20px;
+          display: block;
+        }
+
+       nav, nav ul{
+          flex-direction: column;
+          margin-right: auto;
+        }
+
+        nav ul li{
+          margin-top: 10px;
+          margin-left: -90px;
+        }
+
+        .contact-info{
+          margin-right: auto;
+          margin-top: 10px;
+        }
+
+        .contact-info p{
+          padding-right: 77px;
+        }
+
+        .hero{
+          height: 55vh;
+        }
+
+        .hero-title h1{
+          font-size: 30px;
+          width: 400px;
+          margin-top: -50px;
+        }
+
+        .hero-title p{
+          width: 400px;
+          margin-top: 5px;
+        }
+
+        .hero-text{
+          padding: 30px;
+          margin-left: 110px;
+        }
+
+        .two .left{
+          margin: 20px 40px;
+        }
+
+        .two .left h1{
+          font-size: 25px;
+          line-height: 35px;
+          width: 300px;
+        }
+
+        .two .left .text{
+          width: 350px;
+        }
+
+        .two .right img{
+          width: 300px;
+        }
+
+        .three{
+          height: 40vh;
+        }
+
+        .three h1{
+          margin-top: -60px;
+        }
+
+        .four .products{
+          margin-left: 20px;
+          display: grid;
+          grid-template-columns: repeat(2, 1fr); 
+          gap: 10px; 
+         
+        }
+
+        .four .products .product{
+          width: 310px;
+          margin: 10px;
+        }
+
+        .four .products .product img{
+          width: 100%;
+        }
+
+        .four .products .product p{
+          width: 260px;
+        }
+
+        .five{
+          margin-top: 470px;
+          height: 40vh;
+        }
+
+        .five div{
+          width: 100%;
+        }
+
+        .six{
+          height: 215vh;
+        }
+
+        .six .left{
+          margin-left: 60px;
+        }
+
+        .six .left p{
+          width: 300px;
+        }
+
+        .six .right{
+          margin-left: 30px;
+          display: grid;
+          grid-template-columns: repeat(1, 11fr); 
+          gap: 10px; 
+        }
+
+        .seven .cards .card {
+          height: 330px
+        }
+
+        .eight .left{
+          margin-left: 50px;
+        }
+
+        .eight .left p{
+          width: 200px;
+        }
+
+        .eight .right .shm{
+         width: 100px;
+        }
+
+        .nine .left ul li{
+         font-size: 10px;
+        }
+
+        .nine .right{
+          margin-left: 90px;
+        }
+
+        .nine .line{
+          width: 600px;
+        }
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      @media (max-width: 700px) {
+
+        .two{
+          flex-direction: column;
+        }
+
+        .two .left h1{
+          font-size: 30px;
+          width: 500px;
+        }
+
+        .two .left .text{
+          width: 550px;
+        }
+
+        .two .right img{
+          width: 400px;
+        }
+
+        .three{
+          height: 30vh;
+        }
+
+        .three div h1{
+          font-size: 22px;
+          margin-top: -90px;
+        }
+
+        .three div p{
+          width: 300px;
+          font-size: 14px;
+          margin-top: 3px;
+        }
+
+        .five{
+          height: 30vh;
+          margin-top: 460px;
+        }
+
+        .five div{
+          width: 100%;
+          height: 150px;
+        }
+
+        .five div h2{
+          font-size: 18px;
+          line-height: 0;
+        }
+
+        .five div p{
+        font-size: 12px;
+        }
+
+        .seven .cards {
+         display: grid;
+         grid-template-columns: repeat(2, 1fr); 
+         gap: 10px;
+        }
+
+        .seven .cards .card {
+          height: 100%
+        }
+
+        .eight {
+          flex-direction: column;
+        }
+
+        .eight .left h2{
+          width: 100%;
+          font-size: 40px;
+        }
+
+        .eight .left p{
+          width: 100%;
+        }
+
+        .eight .right{
+          margin-left: 40px;
+          margin-top: 20px;
+        }
+
+        .nine img{
+          margin-left: 48px;
+        }
+
+        .nine .left{
+          margin-left: -53px;
+        }
+
+        .nine .right{
+          margin-left:50px;
+        }
+
+        .nine .right input{
+          padding-top: 5px;
+        }
+
+        .nine .right button{
+          padding: 7px 10px;
+          top: 115px;
+          right: 20px;
+        }
+
+        .nine .line{
+          width: 600px;
+          margin-left: 50px;
+        }
+      }
+      
+
+
+
+
+
+
+
+
+
+
+      @media (max-width: 650px) {
+
+        .hero{
+          height: 40vh;
+        }
+
+        .hero-title h1{
+          margin-left: -100px;
+          font-size: 20px;
+        }
+
+        .hero-title p{
+          margin-left: -100px;
+          font-size: 13px;
+        }
+
+        .hero-text{
+          margin-left: 10px;
+        }
+
+        .hero-btn{
+          margin-left: -100px;
+        }
+
+        .two .left .text{
+          width: 500px;
+        }
+
+        .three div h1{
+          font-size: 24px;
+          margin-left: 40px;
+        }
+
+        .three div p{
+          margin-left: 40px;
+        }
+
+        .three div button{
+          margin-top: 7px;
+          margin-left: 40px;
+        }
+
+        .four .products{
+         display: grid;
+         grid-template-columns: repeat(1, 1fr);
+         gap: 10px;
+        }
+
+        .five{
+          margin-top: 950px;
+        }
+
+        .six{
+          height: 250vh;
+          flex-direction: column;
+        }
+
+        .six .left h3{
+          width: 100%;
+        }
+
+        .six .left p{
+          width: 100%;
+        }
+
+        .six .right{
+          margin-top: 0px;
+          margin-left: 60px;
+        }
+
+        .seven .cards {
+          margin-top: 20px;
+          margin-left: 50px;
+         grid-template-columns: repeat(1, 1fr); 
+        }
+
+        .eight .right {
+          width: 500px;
+        }
+
+        .nine img{
+          margin-left: 25px;
+        }
+
+        .nine .big{
+          display: grid;
+          grid-template-columns: repeat(1, 1fr); 
+        }
+
+        .nine .left{
+          margin-left: -73px;
+        }
+
+        .nine .left ul li{
+          font-size: 14px;
+        }
+
+        .nine .right{
+          margin-left: 25px;
+         margin-top: 40px;
+        }
+
+        .nine .right button{
+          padding: 7px 17px;
+          top: 186px;
+          right: 140px;
+        }
+
+        .nine .line{
+          width: 500px;
+          margin-left: 30px;
+          margin-top: 25px;
+        }
+
+        .nine .last{
+          margin-top: 20px;
+          display: grid;
+          grid-template-columns: repeat(1, 1fr); 
+        }
+
+        .nine .last .left ul li{
+          font-size: 9px;
+      }
+
+      .nine .last .right{
+        margin-top: 15px;
+      }
+    }
+
+
+
+
+
+
+
+
+
+    
+
+    @media (max-width: 540px) {
+      .two .left .text{
+        width: 420px;
+      }
+
+      .three div h1{
+        font-size: 20px;
+      }
+
+      .three div p{
+       font-size: 13px;
+      }
+      
+      .five{
+        margin-top: 970px;
+      }
+
+      .five div{
+        width: 90%;
+      }
+
+      .six .left p{
+        width: 400px;
+      }
+
+      .eight .right {
+        width: 450px;
+      }
+
+      .nine .line{
+        width: 430px;
+      }
+
+      .nine .last{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+      }
+
+      .nine .last .left ul li{
+        font-size: 9px;
+    }
+
+    .nine .last .right{
+      margin-top: 15px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+    
+
+  @media (max-width: 500px) {
+
+    .two .left h1{
+      width: 100%;
+    }
+
+    .three div h1{
+      font-size: 16px;
+    }
+
+    .three div p{
+     font-size: 12px;
+    }
+
+    .eight .right {
+      width: 420px;
+    }
+
+    .eight .right .text{
+      width: 350px;
+    }
+
+    .eight .right .shm{
+      width: 110px;
+    }
+
+    .nine .line{
+      width: 430px;
+    }
+
+    .nine .last{
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr); 
+    }
+
+    .nine .last .left ul li{
+      font-size: 9px;
+  }
+
+  .nine .last .right{
+    margin-top: 15px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+@media (max-width: 470px) {
+
+  .hero{
+    height: 20vh;
+  }
+
+  .hero-text{
+    padding: 20px;
+  }
+
+  .hero-title h1{
+    font-size: 15px;
+    margin-top: -50px;
+  }
+
+  .hero-title p{
+    margin-top: -8px;
+    width: 300px;
+    font-size: 9px;
+  }
+
+  .hero-btn button{
+    margin-left: -10px;
+  }
+
+
+  .two .left .text{
+    width: 320px;
+  }
+
+  .two .right img{
+    width: 270px;
+  }
+
+  .three{
+    height: 18vh;
+  }
+
+  .three div h1{
+    font-size: 14px;
+  }
+
+  .three div p{
+   font-size: 10px;
+   margin-top: 10px;
+  }
+
+  .five{
+    margin-top: 750px;
+    height: 18vh;
+  }
+
+  .five div p{
+    font-size: 10px;
+  }
+
+  .six{
+    height: 185vh;
+  }
+
+  .six .left p{
+    width: 300px;
+  }
+
+  .eight .left p{
+    width: 300px;
+  }
+
+  .eight .right {
+    width: 320px;
+  }
+
+  .eight .right .text{
+    width: 250px;
+  }
+
+  .eight .right .shm{
+    width: 200px;
+  }
+
+  .nine .big .left ul li{
+    font-size: 11px;
+  }
+
+  .nine .big .right button{
+    right: 90px;
+    top: 182px;
+  }
+
+  .nine .line{
+    width: 330px;
+  }
+
+  .nine .last{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); 
+  }
+
+  .nine .last .left ul li{
+    font-size: 9px;
+}
+
+.nine .last .right{
+  margin-top: 15px;
+}
+
+.nine .last .left ul li{
+  font-size: 7px;
+  margin: 0 10px;
+}
+}
